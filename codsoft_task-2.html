@@ -1,0 +1,498 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fasthand&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <style>
+        
+            .header
+            {
+                margin:10px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px;
+            }
+            .logo
+            {
+                display:flex;
+            }
+            .sign
+            {
+                font-size:30px;
+                
+                margin-top:40px;
+                font-feature-settings: "dist";
+                font-family: 'Satisfy', cursive;
+                font-synthesis: weight;
+                font-variant-caps:petite-caps;
+                font-variant-ligatures:contextual;
+                color:ivory;
+                
+                
+            }
+            .setup
+            {
+                display:flex;
+                margin-left:50px;
+                
+            }
+            .img
+            {
+             mix-blend-mode:hard-light;
+             background-blend-mode: hard-light;
+             border-radius:300px 300px 400px 400px;
+             border:3px solid purple;
+             margin:80px 100px;
+             
+    
+
+            }
+            .p
+            {
+                
+                margin:0px 0px 50px 80px;
+                font-size:40px;
+                font-family: 'Fasthand', cursive;
+                color:navy;
+                
+            }
+            .about
+            {
+                margin:10px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px; 
+            }
+            .skills
+            {
+                margin:10px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px; 
+            }
+            .projects
+            {
+                margin:10px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px; 
+            }
+            .resume
+            {
+                margin:10px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px; 
+            }
+            .contact
+            {
+                margin:10px 20px 0px 20px;
+                height:700px;
+                background:linear-gradient(purple,pink);
+                border:2px solid black;
+                border-radius: 10px; 
+                
+            }
+            .nav
+            {
+                
+                display:flex;
+                width:100%;
+                position: fixed;
+                height:10%;
+               
+            }
+            ul
+            {
+                display:flex;
+                margin-left:500px;
+                border: 2px solid black;
+                border-radius: 50px;
+                background-color: blanchedalmond;
+                  
+            }
+            li
+            {
+                display:flex;
+                margin:0px 20px;
+                font-size:30px;
+                text-align: center;
+                color:coral;
+                font-family:cursive;
+
+                
+             }
+             li:hover{
+                background:linear-gradient(to bottom,green,blue);
+                border-radius:30px;
+             }
+            
+           /* .a
+            {
+                display:flex;
+                text-align:center;
+                
+                text-decoration:none;
+                color:coral;
+                padding:10px;
+                font-size:30px;
+                font-style:var(30px);
+                font-family: cursive;
+                border-radius:30px;
+                
+            }
+            .a:hover{
+                color:tomato;
+                transition:0.5s;
+                transform:translateY(30px);
+                background:linear-gradient(to bottom,green,blue);
+            }*/
+            h1{
+                
+                font-weight: bold;
+                margin:150px 500px 0px  500px;
+                 font-family:'Courier New', Courier, monospace;
+                 color:rgb(from blue pink);
+                 border-end-end-radius:60px;
+                 border-top-left-radius: 60px;
+                  text-align: center;
+                 border: 4px double whitesmoke;
+                 background-color: grey;
+                            
+            }
+            .profilephoto
+            {
+                
+                margin-top:20px;
+                display:flex;
+
+            }
+            .pro{
+                margin:20px 50px;
+                height:400px;
+                width:400px;
+                border-radius: 200px;
+                
+            }
+            .pro:hover{
+                transition:1s;
+                transform: rotateX(360deg);
+            }
+           .namaste
+            {
+                margin:0px 0px 20px 30px;
+                width:200px;
+                height:200px;
+                background:purple;
+                border-radius: 100px;
+            }
+            .namaste:hover{
+                transition:0.5s;
+                transform:rotate(360deg);
+                
+            }
+            .details
+            {
+                margin:30px 0px 0px 200px;
+            }
+            .info
+            {
+                display:flex;
+                margin-right: 20px;
+            }
+            .pa{
+                  font-size: 30px;
+                  margin-left:10px;
+                  margin-top:25px ;
+                  font-style: italic;
+
+            }
+            h2{
+                font-size:30px;
+                font-style: italic;
+            }
+           button{
+                border:none;
+                background-color: blanchedalmond;
+                border-radius:30px;
+            }
+            .skillmat
+            {
+                display:flex;
+            }
+            .skillmatter
+            {
+                margin:0px 300px 0px 300px;
+                font-size: 25px;
+                color:whitesmoke;
+            }
+            .skillImage
+            {
+                mix-blend-mode:color-burn;
+
+            }
+            .projectImage
+            {
+                display:flex;
+            }
+            .cisco
+            {
+                margin:20px 20px 20px 250px;
+            }
+            .landing
+            {
+                margin:20px 20px 20px 250px;
+            }
+            .ap{
+
+            }
+            .ap:hover{
+                transition:0.5s;
+                transform:translateY(20px);
+            }
+
+            .Resumematter
+            {
+                margin:50px 300px 100px 300px;
+                font-size: 25px;
+                color:whitesmoke;
+            }
+            .ResumeImg
+            {
+                font-size:30px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin:80px 0px 0px 500px;
+            }
+
+            .ResumeImg:hover{
+                transition: 0.9s;
+                transform:translate(20px);
+            }
+            form{
+                font-style:italic;
+                font-size:20px;
+                margin:30px 0px 0px 200px;
+                padding:20px;
+                color:yellow;
+            }
+            textarea::placeholder {
+            text-align: center;
+            font-size:20px;
+        }
+        .contactmake
+        {
+            display:flex;
+        }
+        
+        .contactinfo
+        {
+            
+            margin:40px 0px 0px 300px;
+            
+        }
+        h3{
+            font-family:'Dancing Script',cursive;
+            font-size:40px;
+            text-decoration:underline;
+        }
+        .contactdetails
+        {
+            margin-left:20px;
+            font-size: 20px;
+        }
+        .contactemail
+        {
+            display:flex;
+        }
+        .footer
+        {
+            margin:0px 20px;
+                height:80px;
+                background:purple;
+                border-radius: 10px; 
+                text-align: center;
+                font-size:20px;
+                color:aliceblue;
+                display:flex;
+        }
+        .foot
+        {
+            margin-left:500px;
+            display:flex;
+    
+        } 
+        .icon
+        {
+            margin:20px 0px 0px 400px;
+        }     
+           
+        </style>
+    </head>
+    <body>
+        <script>
+            function moveToDesiredDivByClass(className) {
+                var desiredDiv = document.querySelector('.' + className);
+                if (desiredDiv) {
+                desiredDiv.scrollIntoView({ behavior: 'smooth' });
+                       }
+                   }
+        </script>
+        <div class="nav">           
+           <div>
+            <ul>
+                <button onclick="moveToDesiredDivByClass('header')"><li>Home</li></button>
+                <button onclick="moveToDesiredDivByClass('about')"><li>About</li></button>
+                <button onclick="moveToDesiredDivByClass('skills')"><li>Skills</li></button>
+                <button onclick="moveToDesiredDivByClass('projects')"><li>Projects</li></button>
+                <button onclick="moveToDesiredDivByClass('resume')"><li>Resume</li></button>
+                <button onclick="moveToDesiredDivByClass('contact')"><li>Contact</li></button>
+            </ul>
+            </div>
+           </div>
+        
+        
+        <div class="header">
+            <div class="logo">
+            <div class="sign">
+                <p>< Durga Prasad ></Durga></p>
+                </div>
+          <img class="namaste" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uP5d6MHWnkHFraxuHpLzhSTCmVxyFyVb-g&usqp=CAU" height="200px" width="200px">
+          </div>  
+           <div class="setup">
+            <img  class="img" src="https://img.freepik.com/premium-vector/boy-sitting-his-computer-learning-online-game-online_10045-311.jpg?w=740" height="350px" width="350px">
+            <p class="p">Hello  friends, I introduce Myself. I'm Dantla DurgaPrasad.   I am a Computer Science Student studying B.tech at Jawaraharlal Nehru Techonological University(JNTU) Gurajada Vizianagaram.I'm Very happy to tell about Me. </p>   
+            </div>                 
+        
+        </div>
+    <div class="about">
+            <h1>Personal Information</h1>
+        <div class="profilephoto">
+                <img class="pro" src="D:/PortfolioCodSoft/IMG_20230714_135015.jpg" alt="profilePic" height="400px" width="400px">
+        
+            <div class="details">
+                <div class="info">                
+                    <h2>Name: </h2>
+                    <p class="pa"> Dantla Durgaprasad</p>
+                </div>
+                <div class="info">                
+                    <h2>Interested: </h2>
+                    <p class="pa"> Farming with Artificial Intelligence,Business Administration</p>
+                </div>
+                <div class="info">
+                    <h2>Hobbies: </h2>
+                    <p class="pa"> Reading books,watching movies,Playing games like cricket,kabaddi etc..</p>
+                </div>
+                <p class="pa">I like dancing....</p>
+                <p class="pa">Friends call me DP</p>
+                
+            </div>
+        </div>    
+    </div>
+
+    
+        <div class="skills">
+            <h1>Skills</h1>
+            <div class="skillmat">
+            <div class="skillmatter">
+            <p>**I learnt Programming Languages</p>
+            <p>c</p>
+            <p>c++</p>
+            <p>Java</p>
+            <p>Python</p>
+            <p>**Database Management for SQL</p>
+            <p>**I know well about Datastructures and Algorithms</p>
+            <p>**I have grip in Web Development</p>
+        </div>
+        <img class="skillImage" src="https://img.freepik.com/free-vector/editing-body-text-concept-illustration_114360-5671.jpg?size=626&ext=jpg" alt="skillsImage" height="500pxpx" width="500px" >
+       </div>        
+
+    </div>
+    <div class="projects">
+            <h1>Projects</h1>
+        <div class="projectImage">
+            <div class="cisco">
+                <p class="pa">I completed Cisco Packet Tracer ...  </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3-149X98zAopjlvTg5MyvgNyXs0vTdXSAEze9IKpNJnMs7d4WSdNONhinNVcHz-9b0E&usqp=CAU" alt="ciscologo" height="300px" width="300px">
+             </div>
+             <div class="landing">
+                <p class="pa">I have done a Landing Page </p>
+                <div class="ap">
+                <a href="file:///D:/website%20practice/CodSoft/task-1.html"><img src="D:/PortfolioCodSoft/LandingPage.png" alt="LandingPage" height="300px" width="400px"></a>
+                </div>
+            </div>
+         </div>
+
+     </div>
+        <div class="resume">
+            <h1>Resume</h1>
+            <div class="Resumematter">
+            <p >I like to Share my resume with you</p>
+            <p >Click on image or download button t download resume</p>
+            </div>
+
+            <div class="ResumeImg">
+            <a  href="D:\PortfolioCodSoft\Resume.pdf" download="Resume.pdf"><img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2022/09/27131452/How-to-Create-a-Short-Resume-1024x512.jpg" alt="resumeImage" height="200px" width="200px"></a>
+             <br>
+            <a href="D:\PortfolioCodSoft\Resume.pdf" download="Resume.pdf">Download Resume</a>
+        </div>
+     </div>
+    <div class="contact">
+                <h1>Contact</h1>
+         <div class="contactmake">
+            <form>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" size="50" required>
+                 <br> 
+                <label for="email">Email:</label>
+                 <br>
+                 <input type="email" id="email" name="email" size="50" required>
+                <br> 
+                <label for="mobile">Mobile:</label>
+                <br>
+                <input type="number" id="mobile" name="mobile" size="50">
+                 <br> 
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Type Any Message"></textarea> 
+                <br> 
+                <input type="submit" value="Submit">         
+                </form>
+            <div class="contactinfo">
+                  <h3>Contact Me</h3>
+                 <div class="contactdetails">
+                     <div class="contactemail">
+                         <img src="D:/PortfolioCodSoft/contactemail.png" alt="maillogo" >
+                         <p style="font-size:30px;">durgaprasaddantla123@gmail.com</p>
+                     </div>     
+                     <div class="contactemail">
+                         <img src="D:/PortfolioCodSoft/phonelogo.png" alt="phonelogo">
+                         <p style="font-size:30px;">7396979744</p>
+                    </div>
+
+                </div>
+          </div>
+       </div>
+
+    </div>
+        <div class="footer">
+            <div class="foot">
+               <p>All rights are Reserved</p>
+               <div class="icon">
+                <img src="D:/PortfolioCodSoft/instagram.png" alt="instagramicon" height="50px" width="50px" >
+                <img src="D:/PortfolioCodSoft/facebook.png" alt="facebookicon" height="50px" width="50px">
+                <img src="D:/PortfolioCodSoft/gmail.png" alt="gmailicon" height="50px" width="50px">
+               </div>
+            </div>
+        </div>
+    </body>
+</html
